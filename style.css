@@ -8,13 +8,18 @@ h1 {
     margin: 0 auto;
   }
   
+  /* It absolutely positions the three elements inside the full-img <div> — the <img> in which the full-sized image is displayed */
+  
   .full-img {
     position: relative;
     display: block;
     width: 640px;
     height: 480px;
   }
-  
+
+  /* an empty <div> that is sized to be the same size as the <img> and put right over the top of it.
+  (this is used to apply a darkening effect to the image via a semi-transparent background color)*/
+
   .overlay {
     position: absolute;
     top: 0;
@@ -24,6 +29,8 @@ h1 {
     background-color: rgba(0,0,0,0);
   }
   
+  /* button used to control the darkening effect. */
+ 
   button {
     border: 0;
     background: rgba(150,150,150,0.6);
@@ -35,6 +42,7 @@ h1 {
     left: 2px;
   }
   
+  /* sets the width of any images inside the thumb-bar <div> (so-called "thumbnail" images) to 20%, and floats them to the left so they sit next to one another on a line */
   .thumb-bar img {
     display: block;
     width: 20%;
