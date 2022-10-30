@@ -6,6 +6,7 @@ h1 {
   body {
     width: 640px;
     margin: 0 auto;
+    background-color: black;
   }
   
   /* It absolutely positions the three elements inside the full-img <div> — the <img> in which the full-sized image is displayed */
